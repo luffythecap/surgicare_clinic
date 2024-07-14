@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Surgicare Clinic</title>
+  <meta name="title" content="dprod - Digital product design agency">
+  <meta name="description" content="This is a agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="logo.png" width="120px" height="23px" >
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <p class="navbar-title">Main Menu</p>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#treatments" class="navbar-link" data-nav-link>Treatments</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="book_a_call.html" class="btn btn-primary">Enquiry</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner has-shape">
+
+            <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <img src="surgeon.jpg" style="width: 400px; height: 455px;">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="surgeon2.jpg" style="width:400px;">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+
+            <div style=" padding-left: 170px; padding-top: 
+            4px; text-align:left">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+               
+            </div>
+
+          </figure>
+          
+          <div class="hero-content">
+
+            <h1 class="h1 section-title">
+              <span class="span">Surgicare</span> Clinic your wellness guardian
+            </h1>
+
+            <p class="section-text">
+              Best Medical & Health Care Needs to Our Patients
+            </p>
+            <a href="./book_a_call.html">
+              <button class="btn btn-secondary" >Enquiry</button>
+            </a>
+            
+
+          </div>
+          
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICES
+      -->
+
+      <section class="section service has-shape" id="services" aria-label="service">
+        <div class=" services2 container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">
+            Know <span class="span">About</span> Us.
+            </h2>
+
+            <p class="section-text">
+              Clinic, an organised medical service offering diagnostic, theraputic, or preventive outpatient services. often, the term covers an entire medical teaching centre, including the hospital and the outpatient facilities.
+            </p>
+          </div>
+
+          <ul class="grid-list">
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="about1.png" width="70" height="70" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Consultation</a>
+                </h3>
+
+                <p class="card-text">
+                  ............................
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="about2.jpg" width="70" height="70" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Diagnostic</a>
+                </h3>
+
+                <p class="card-text">
+                  .............................
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="about3.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Health Check</a>
+                </h3>
+
+                <p class="card-text">
+                  .................................
+                  <br>
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="about4.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Target</a>
+                </h3>
+
+                <p class="card-text">
+                  ................................
+                  <br>
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/circle-shape.svg" width="158" height="158" loading="lazy" alt=""
+            class="shape shape-1">
+
+          <img src="./assets/images/triangle-shape-1.svg" width="158" height="158" loading="lazy" alt=""
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              We've been helping <span class="span">patients</span> globally.
+            </h2>
+
+            <p class="section-text">
+              The next generation of care for women and families <br>
+              Enjoy your life - we'll be here to save it! <br>
+              Better medicine makes a better world
+            </p>
+
+            <a href="#" class="btn btn-outline">More About Us</a>
+
+          </div>
+
+          <figure class="about-banner has-shape">
+            <img src="banner.png" width="1000" height="1000" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-label="project" id="treatments">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <h2 class="h2 section-title">
+                Our <span class="span">Treatments</span>.
+              </h2>
+
+              <p class="section-text">
+                Aliquam tristique libero at dui sodales, et placerat orci lobortis. Donec metus lorem, vulputate at
+                sapien sit amet,
+                auctor iaculis lorem.
+              </p>
+            </div>
+
+            <a href="#" class="btn-link">
+              <span class="span">View Cases</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 615; --height: 391;">
+                  <img src="treatment1.jpg" width="615" height="391" loading="lazy"
+                    alt="treatment1" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">Gynaec Cases</a>
+                    </h3>
+
+                    <p class="card-tag">  </p>
+                  </div>
+
+                  <a href="#" class="card-link" aria-label="product details">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 615; --height: 391;">
+                  <img src="treatment2.png" width="615" height="391" loading="lazy" alt="treatment2"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">Male - Female <br> Sexual Dysfunction</a>
+                    </h3>
+
+                    <p class="card-tag">  </p>
+                  </div>
+
+                  <a href="#" class="card-link" aria-label="product details">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 390; --height: 391;">
+                  <img src="treatment3.avif" width="390" height="391" loading="lazy"
+                    alt="treatment3" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">Ayurvedic panchakarma & Garbhasanskara</a>
+                    </h3>
+
+                    <p class="card-tag"> </p>
+                  </div>
+
+                  <a href="#" class="card-link" aria-label="product details">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 390; --height: 391;">
+                  <img src="treatment4.jpg" width="390" height="391" loading="lazy"
+                    alt="treatment4" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">Cosmetology & Hair Treatment</a>
+                    </h3>
+
+                    <p class="card-tag">  </p>
+                  </div>
+
+                  <a href="#" class="card-link" aria-label="product details">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 390; --height: 391;">
+                  <img src="treatment5.jpeg" width="390" height="391" loading="lazy" alt="treatment5"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">All Types Of Open Surgery</a>
+                    </h3>
+
+                    <p class="card-tag">  </p>
+                  </div>
+
+                  <a href="#" class="card-link" aria-label="product details">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">
+              Our <span class="span">Doctors</span>.
+            </h2>
+
+            <!-- <a href="#" class="btn-link">
+              <span class="span">  </span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a> -->
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 700; --height: 500;">
+                  <img src="sample.jpg" width="700" height="500" loading="lazy"
+                    alt="Designer's Checklist for Every UX Project." class="img-cover">
+
+                  <!-- <button class="card-tag">Grid Layout</button> -->
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="meta-list">
+
+                    <li class="meta-item">
+                      <!-- <img src="doc1.jpeg" width="18" height="18" loading="lazy" alt="Dr.Abhishek D. Kokare"
+                        class="author-img"> -->
+
+                      <h2 class="meta-item-text">Dr. Abhishek D. Kokare</h2>
+                    </li>
+
+                    <li class="meta-item">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <time datetime="2022-12-20" class="meta-item-text">August 30, 1997</time>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title hover:underline">
+                      M.S. Gynaecology & Obstetrics (ISM)Sch
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 700; --height: 500;">
+                  <img src="sample.jpg" width="700" height="500" loading="lazy"
+                    alt="Designer's Checklist for Every UX Project." class="img-cover">
+
+                  <!-- <button class="card-tag">Grid Layout</button> -->
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="meta-list">
+
+                    <li class="meta-item">
+                      <!-- <img src="doc2.jpeg" width="18" height="18" loading="lazy" alt="Dr.Namrata"
+                        class="author-img"> -->
+
+                      <h2 class="meta-item-text">Dr. Namrata B. Gadade</h2>
+                    </li>
+
+                    <li class="meta-item">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <time datetime="2022-12-20" class="meta-item-text">July 06, 2000</time>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title hover:underline">
+                      Bachelors of Ayurvedic Medicine & Surgery
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 595; --height: 391;">
+                  <img src="./assets/images/blog-3.png" width="595" height="391" loading="lazy"
+                    alt="Designer's Checklist for Every UX Project." class="img-cover">
+
+                  <button class="card-tag">Grid Layout</button>
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="meta-list">
+
+                    <li class="meta-item">
+                      <img src="./assets/images/author-1.png" width="18" height="18" loading="lazy" alt="Cooper Saris"
+                        class="author-img">
+
+                      <p class="meta-item-text">Cooper Saris</p>
+                    </li>
+
+                    <li class="meta-item">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                      <time datetime="2022-12-20" class="meta-item-text">December 20, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title hover:underline">
+                      Designer's Checklist for Every UX Project.
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="logo.png" width="209" height="52" alt="dprod logo">
+          </a>
+
+          <a href="mailto:surgicareclinicinfo@gmail.com" class="footer-link">surgicareclinicinfo@gmail.com</a>
+
+          <a href="mob:+919702775212" class="footer-link">+91 97027 75212</a>
+
+          <a href="mob:+917083578576" class="footer-link">+91 70835 78576</a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h4 footer-list-title">Get Surgicare</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">For Doctors</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">For Telegram</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">For MS Team</a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="footer-link">Team Members</a>
+          </li> -->
+
+          <li>
+            <a href="#" class="footer-link">Pricing Standard</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h4 footer-list-title">Patient Care</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">F A Q</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support</a>
+          </li>
+
+          
+        </ul>
+
+        
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2024 All Rights Reserved by  <a href="https://tricode.42web.io/">Tricode.</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+</body>
+
+</html>
